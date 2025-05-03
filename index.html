@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AlterSpace</title>
   
-  <!-- 🔹 Importando la fuente Pixelify Sans -->
+  <!-- 🔹 Fuente Pixelify Sans -->
   <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
 
   <style>
@@ -16,7 +16,7 @@
       background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
                   url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExejB5bXJmNWNuMGE4eDFyYW1vNGl2cThxbjBhZDhzemVuNGVwZGc0NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TexuKBfvpWjaIuACrz/giphy.gif');
       background-size: cover;
-      background-position: center 0;
+      background-position: center;
       background-repeat: no-repeat;
     }
 
@@ -62,22 +62,24 @@
     }
 
     .chat-container {
-  background: rgba(34, 34, 34, 0.85);
-  padding: 20px;
-  border-radius: 10px;
-  max-width: 600px;
-  width: 90%;
-  margin: 50px auto; 
-  text-align: center;
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: center; 
-  }
+      background: rgba(34, 34, 34, 0.85);
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 600px;
+      width: 90%;
+      margin: 50px auto;
+      text-align: center;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; /* 🔹 Alineación completa */
+    }
 
     #chatTimeline {
       max-height: 300px;
       overflow-y: auto;
+      width: 100%;
       text-align: left;
       padding: 10px;
       border: 1px solid #555;
@@ -143,6 +145,10 @@
 
   <footer>
     &copy; 2025 AlterSpace
+  </footer>
+
+</body>
+</html>
   </footer>
 
 </body>
