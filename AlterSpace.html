@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mini Newgrounds</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #f0f0f0;
+    }
+
+    header {
+      background-color: #222;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+      color: #ffcc00;
+    }
+
+    nav a {
+      color: #ccc;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    .banner {
+      background-color: #333;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .banner h2 {
+      margin: 0;
+      color: #ffcc00;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .item {
+      background: #222;
+      padding: 10px;
+      border-radius: 5px;
+      text-align: center;
+    }
+
+    .item img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>MiniGrounds</h1>
+    <nav>
+      <a href="#">Inicio</a>
+      <a href="#">Juegos</a>
+      <a href="#">Animaciones</a>
+      <a href="#">Arte</a>
+      <a href="#">Audio</a>
+    </nav>
+  </header>
+
+  <section class="banner">
+    <h2>Bienvenido a MiniGrounds</h2>
+    <p>Explora contenido hecho por creadores independientes</p>
+  </section>
+
+  <section class="gallery">
+    <div class="item">
+      <img src="https://via.placeholder.com/200x150" alt="Proyecto 1">
+      <p><strong>Juego 1</strong></p>
+    </div>
+    <div class="item">
+      <img src="https://via.placeholder.com/200x150" alt="Proyecto 2">
+      <p><strong>Animación 1</strong></p>
+    </div>
+    <div class="item">
+      <img src="https://via.placeholder.com/200x150" alt="Proyecto 3">
+      <p><strong>Arte 1</strong></p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 MiniGrounds - Sitio de prueba inspirado en Newgrounds
+  </footer>
+
+</body>
+</html>
