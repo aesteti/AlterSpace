@@ -62,15 +62,18 @@
     }
 
     .chat-container {
-      background: rgba(34, 34, 34, 0.85);
-      padding: 20px;
-      border-radius: 10px;
-      max-width: 600px;
-      width: 90%;
-      margin: 40px auto; /* 🔹 Lo centra horizontalmente */
-      text-align: center;
-      color: #fff;
-    }
+  background: rgba(34, 34, 34, 0.85);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  width: 90%;
+  margin: 40px auto; /* 🔹 Lo centra horizontalmente */
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 🔹 Asegura que todo dentro del chat esté bien alineado */
+}
 
     #chatTimeline {
       max-height: 300px;
